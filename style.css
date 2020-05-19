@@ -40,24 +40,33 @@ body {
 .main-container{
     /* border: 1px solid red; */
     height: 50%;
-    width: 40%
+    width: 45%
 }
 
 .top-half{
     /* border: 1px solid red; */
-    height: 50%
+    height: 50%;
+    margin-left: 2em;
 }
 
 .heading{
-    color: hsl(179, 62%, 43%)
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 .top-first-line{
-    color: hsl(71, 73%, 54%)
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 
 .top-second-line{
-    color: hsl(218, 22%, 67%)
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5em;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 
@@ -65,14 +74,36 @@ body {
 
 .bottom{
     display:flex;
-    height:50%
+    height:50%;
+    color: white;
 }
+
+/*----left side-----*/
 
 .left{
     width: 50%;
+    background-color:hsl(179, 62%, 43%); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     /* border: 1px solid red */
 }
 
+.left-heading{
+     text-align: left;
+     font-size: 1.2em;
+}
+
+span{
+    font-size: 2em;
+    color: white
+}
+
+.
+
+
+/*----right side-----*/
 .right{
     width: 50%
 }
