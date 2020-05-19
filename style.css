@@ -39,14 +39,14 @@ body {
 
 .main-container{
     /* border: 1px solid red; */
-    height: 50%;
+    height: 60%;
     width: 45%
 }
 
 .top-half{
     /* border: 1px solid red; */
-    height: 50%;
-    margin-left: 2em;
+    height: 40%;
+    margin-left: 1em;
 }
 
 .heading{
@@ -65,7 +65,7 @@ body {
 .top-second-line{
     color: hsl(218, 22%, 67%);
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 400;
 }
 
@@ -76,6 +76,7 @@ body {
     display:flex;
     height:50%;
     color: white;
+    border-bottom-left-radius: 40px 20px;
 }
 
 /*----left side-----*/
@@ -87,23 +88,74 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red */
+    border-bottom-left-radius: 40px 20px;
+   
 }
 
-.left-heading{
+h4 {
      text-align: left;
-     font-size: 1.2em;
+     font-size: 1.5em;
 }
 
 span{
     font-size: 2em;
-    color: white
+    color: white;
+    margin-right: 0.2em;
 }
 
-.
+.price{
+    color: hsl(204, 43%, 93%);
+    margin-top: 1em;
+}
+
+.left-line-three{
+    color: hsl(204, 43%, 93%);
+    margin-top: 0.5em;
+}
+
+button{
+    width: 100%;
+    height: 40%;
+    background-color:hsl(71, 73%, 54%);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 3%;
+    margin-top: 1em;
+    box-shadow: 0px 15px 10px -15px #111;  
+
+}
 
 
 /*----right side-----*/
 .right{
-    width: 50%
+    width: 50%;
+    background-color:hsl(179, 62%, 43%); 
+    filter: brightness(115%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 40px 20px;
+}
+
+.content-right{
+    margin-right: 5em;
+}
+
+.content{
+    margin-bottom: 4.5em;
+}
+
+.heading-right{
+    margin-top: 2em;
+
+}
+
+.first-line-right{
+    margin-top: 1.5em;
+}
+
+.right p{
+    color:hsl(204, 43%, 93%);
 }
