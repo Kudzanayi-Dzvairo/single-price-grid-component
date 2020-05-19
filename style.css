@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */
+
+body {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*----top half-----*/
+
+.main-container{
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 40%
+}
+
+.top-half{
+    /* border: 1px solid red; */
+    height: 50%
+}
+
+.heading{
+    color: hsl(179, 62%, 43%)
+}
+
+.top-first-line{
+    color: hsl(71, 73%, 54%)
+}
+
+.top-second-line{
+    color: hsl(218, 22%, 67%)
+}
+
+
+/*----bottom half-----*/
+
+.bottom{
+    display:flex;
+    height:50%
+}
+
+.left{
+    width: 50%;
+    /* border: 1px solid red */
+}
+
+.right{
+    width: 50%
+}
